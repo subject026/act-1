@@ -1,0 +1,10 @@
+name: First Workflow
+on: workflow_dispatch # manually start workflow
+jobs:
+  first-job:
+    runs-on: ubuntu:latest
+    steps:
+      - name: print greeting
+        run: echo Heyyyyyy
+      - name: print tara
+        run: echo tara now
